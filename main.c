@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 	cond1 = 2 < x && x < 5;
 	cond2 = x > 1 || x < 4 && x > 3;
 	
-	printf("cond1=%d. cond2=%d", cond1, cond2);
+	printf("cond1=%d. cond2=%d\n", cond1, cond2);
 	
 	
 	// #02
