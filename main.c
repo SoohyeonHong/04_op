@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 	y = a*x*x+b*x+c ;
 	m = ( x + y + z) / 3 ;
 	
-	printf("y=%d, m=%d", y, m);
+	printf("#1\ny = %d, m = %d \n\n\n", y, m);
 	
 	// #02
 	
@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
 	cond1 = 2 < x2 && x2 < 5;
 	cond2 = x2 > 1 || x2 < 4 && x2 > 3;
 	
-	printf("cond1=%d. cond2=%d\n", cond1, cond2);
+	printf("#2\ncond1=%d. cond2=%d\n\n\n", cond1, cond2);
 	
 	
 	// #03
@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
 	int a2;
 	int b2;
 	
-	printf("input two integers : ");
+	printf("#3\ninput two integers : ");
 	scanf("%d %d", &a2, &b2);
 	
 	printf("+ result is %d\n", a2+b2);
