@@ -8,30 +8,46 @@
 int main(int argc, char *argv[]) {
 	
 	
-	// #01
+	//#01
 	
-	int x = 3;
+	int x,y,z,m;
+	int a,b,c;
+	
+	x = 1;
+	a = 3;
+	b = 4;
+	c = 5;
+	z = 3;
+	
+	y = a*x*x+b*x+c ;
+	m = ( x + y + z) / 3 ;
+	
+	printf("y=%d, m=%d", y, m);
+	
+	// #02
+	
+	int x2 = 3;
 	int cond1, cond2;
 	
-	cond1 = 2 < x && x < 5;
-	cond2 = x > 1 || x < 4 && x > 3;
+	cond1 = 2 < x2 && x2 < 5;
+	cond2 = x2 > 1 || x2 < 4 && x2 > 3;
 	
 	printf("cond1=%d. cond2=%d\n", cond1, cond2);
 	
 	
-	// #02
+	// #03
 	
-	int a;
-	int b;
+	int a2;
+	int b2;
 	
 	printf("input two integers : ");
-	scanf("%d %d", &a, &b);
+	scanf("%d %d", &a2, &b2);
 	
-	printf("+ result is %d\n", a+b);
-	printf("- result is %d\n", a-b);
-	printf("* result is %d\n", a*b);
-	printf("/ result is %d\n", a/b);
-	printf("%% result is %d\n", a%b);
+	printf("+ result is %d\n", a2+b2);
+	printf("- result is %d\n", a2-b2);
+	printf("* result is %d\n", a2*b2);
+	printf("/ result is %d\n", a2/b2);
+	printf("%% result is %d\n", a2%b2);
 	
 	
 	
